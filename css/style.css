@@ -291,6 +291,52 @@ html,body{
 		gap:50px;
 	}
 
+	.menu{
+		width:100%;
+ 		display:flex;
+ 		justify-content:center;
+ 		gap:5px;
+ 	}
+
+ 	.banner-3 .box .box-item{
+ 		width:140px;
+ 		height:140px;
+ 	}
+
+ 	.banner-4 p{
+ 		text-align:center;
+ 	}
+
+ 	.banner-4 .big-box .big-item{
+ 		display:flex;
+		align-items:center;
+		flex-direction:column;
+		flex-wrap:wrap;
+		width:250px;
+		height:250px;
+		border:1px solid  #5ae4a8;
+		border-radius:10px;
+ 	}
+
+ 	.banner-5 p{
+		margin-top:30px;
+		font-family:'montserrat light';
+		text-align:justify;
+		font-size:20px;
+		width:80%;
+	}
+
+ 	.big-item div{
+		margin-top:40px;
+		text-decoration:none;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		border-radius:3px;
+		width:50px;
+		height:50px;
+		background-color:#5ae4a8;
+	}
 	.title{
 		margin-top:50px;
 		display:flex;
@@ -315,7 +361,7 @@ html,body{
 	}
 
 	.icons{
-		margin-top:10px;
+		margin-top:30px;
 	}
 
 }
